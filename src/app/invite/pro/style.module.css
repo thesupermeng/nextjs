@@ -1,0 +1,25 @@
+.desktop {
+    display: flex;
+}
+
+.mobile {
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .desktop {
+        display: none !important;
+    }
+
+    .space {
+
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    /* For desktop phones: */
+    .mobile {
+        display: none !important;
+    }
+}

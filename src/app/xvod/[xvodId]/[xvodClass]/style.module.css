@@ -1,0 +1,11 @@
+.containerHeader {
+  position: relative;
+  width: 100vw !important;
+  max-width: 100% !important;
+  height: 155px; /* Adjust the height as needed */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}

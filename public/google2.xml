@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://yingshi.tv</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>1</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/type/id/1.html</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/type/id/2.html</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/type/id/3.html</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/type/id/4.html</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/type/id/5.html</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/index/type/id/1</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/index/type/id/2</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/index/type/id/3</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/index/type/id/4</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/index/type/id/5</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/index/type/id/15</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/index/type/id/16</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/type/id/1/by/hits_day</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/topic/index/page</loc>
+        <lastmod>2023-06-20</lastmod>
+        <priority>0.8</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201300/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-11</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201299/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-11</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201301/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-12</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201309/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-12</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201308/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-12</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201307/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-12</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201306/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-12</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201305/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-12</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201304/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-12</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201303/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-12</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201302/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-12</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201311/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-12</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/201310/sid/1/nid/1.html</loc>
+        <lastmod>2024-03-12</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+
+
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203644/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203652/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203651/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203650/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203649/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203648/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203647/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203646/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203645/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203654/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203653/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203655/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203656/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-14</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+
+
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203665/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203664/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203663/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203662/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203661/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203660/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203659/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203658/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203657/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203666/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203667/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203670/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203669/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203668/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-15</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+
+
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203671/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-16</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203677/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-16</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203676/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-16</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203675/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-16</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203674/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-16</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203673/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-16</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203672/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-16</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203678/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-16</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+
+
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203683/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-17</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203682/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-17</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203681/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-17</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203680/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-17</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203679/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-17</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203684/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-17</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203685/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-17</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+    <url>
+        <loc>https://yingshi.tv/vod/play/id/203686/sid/1/nid/1.html</loc>
+        <lastmod>2024-06-17</lastmod>
+        <priority>0.5</priority>
+    </url>
+    
+</urlset>

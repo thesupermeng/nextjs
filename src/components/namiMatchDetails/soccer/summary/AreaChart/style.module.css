@@ -1,0 +1,69 @@
+.container {
+  flex: 0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding-right: 10px;
+}
+
+.rowContent {
+  display: flex;
+  flex: 0;
+  flex-direction: row;
+}
+
+.leftContent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+}
+
+.rightContent {
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+  /* background-color: yellow; */
+}
+
+.minuteContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.minuteText {
+  font-size: 9px;
+  font-weight: 400;
+  color: #96979b; /* Define the color */
+}
+
+.eventContent {
+  flex: 1;
+  /* position: relative; */
+  justify-content: center;
+}
+
+.teamIconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 2px;
+}
+
+.teamIcon {
+  flex: 0;
+  width: 20px;
+  height: 20px;
+}
+.timeIndicators {
+  position: relative;
+  flex-direction: row;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,10 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://yingshi.tv/google.xml
+Sitemap: https://yingshi.tv/google2.xml
+Sitemap: https://yingshi.tv/episode_info_1.xml
+Sitemap: https://yingshi.tv/episode_info_2.xml
+Sitemap: https://yingshi.tv/episode_info_3.xml
+Sitemap: https://yingshi.tv/episode_info_4.xml
+Sitemap: https://yingshi.tv/episode_info_5.xml

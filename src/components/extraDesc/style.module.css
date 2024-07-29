@@ -1,0 +1,46 @@
+.collapsible {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  transition: height 0.3s ease;
+}
+
+.collapsible.expanded {
+  -webkit-line-clamp: unset; /* Show all lines */
+}
+
+.show-more-button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.arrow-down {
+  margin-left: 5px;
+}
+
+
+
+.collapsible2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  transition: height 0.3s ease;
+}
+
+.collapsible2.expanded {
+  -webkit-line-clamp: unset; /* Show all lines */
+}
+
+.show-more-button2 {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.arrow-down2 {
+  margin-left: 5px;
+}
