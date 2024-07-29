@@ -1,5 +1,5 @@
 import path from 'path';
-import { i18n } from './next-i18next.config.js';
+
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -29,7 +29,7 @@ const nextConfig = {
       },
     ];
   },
-  i18n,
+
   transpilePackages: ['crypto-js'],
   logging: {
     fetches: {
