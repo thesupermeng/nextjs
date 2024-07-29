@@ -1,8 +1,8 @@
-const { i18n } = require('./next-i18next.config');
+import path from 'path';
+import { i18n } from './next-i18next.config';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-
   reactStrictMode: false,
   // async headers() {
   //   return [
@@ -31,10 +31,10 @@ const nextConfig = {
   },
   i18n,
   transpilePackages: ['crypto-js'],
-  logging:{
-    fetches:{
-      fullUrl:true
-    }
+  logging: {
+    fetches: {
+      fullUrl: true,
+    },
   },
   images: {
     unoptimized: true,
@@ -55,7 +55,10 @@ const nextConfig = {
     // your project has ESLint errors.
     ignoreDuringBuilds: true,
   },
+  webpack: (config) => {
+    config.resolve.alias['@'] = path.join(process.cwd(), 'src');
+    return config;
+  },
 };
 
-
-module.exports = nextConfig;
+export default nextConfig;
