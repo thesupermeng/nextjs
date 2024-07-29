@@ -1,0 +1,41 @@
+.customSm,
+.customMd,
+.customLg,
+.customXl,
+.custom2Xl {
+    display: none;
+}
+
+/* Custom medium range: 800px - 1100px */
+@media (min-width: 720px) and (max-width: 819px) {
+    .customSm {
+        display: flex;
+    }
+}
+
+/* Custom medium range: 800px - 1100px */
+@media (min-width: 820px) and (max-width: 991px) {
+    .customMd {
+        display: flex;
+    }
+}
+
+/* Custom large range: 1100px - 1400px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .customLg {
+        display: flex;
+    }
+}
+
+/* Custom extra large range: 1400px and above */
+@media (min-width: 1200px) and (max-width: 1399px){
+    .customXl {
+        display: flex;
+    }
+}
+
+@media (min-width: 1400px) {
+    .custom2Xl {
+        display: flex;
+    }
+}

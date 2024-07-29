@@ -1,0 +1,48 @@
+.payment_button {
+    /*background: linear-gradient(319.63deg, #B58C63 20.53%, #FAC33D 83.48%);*/
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+}
+
+.sub_header_container_color {
+    background: linear-gradient(180deg, #FFDAA1 -43.06%, #A47952 100%);
+}
+
+.benefit_container_background_color {
+    background: #2D2C2F
+}
+
+.benefit_container_border {
+    background: linear-gradient(180deg, #BDA587 0%, #6E5136 100%);
+    padding: 1px;
+    border-radius: 12px;
+}
+
+.product_card_background_color {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.02) 100%);
+}
+
+.product_card_background_color.selected {
+    background: linear-gradient(180deg, rgba(160, 110, 60, 0.2) 0.95%, rgba(255, 226, 188, 0.2) 100%);
+}
+
+.product_card_animation {
+    animation: height 0.5s ease-in-out;
+}
+
+.payment_method_select_inner {
+    background: linear-gradient(180deg, #D4AE80 0%, #BB9469 100%);
+
+
+}
+.payment_method_select_outer {
+    border: 1px solid rgba(190, 151, 107, 0.8);
+
+}
+
+.payment_method_background {
+    background: linear-gradient(270deg, #1D2023 6.8%, #2E3134 94.17%);
+
+}

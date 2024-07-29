@@ -1,0 +1,91 @@
+a {
+  text-decoration: none !important;
+}
+
+
+.text-yellow-500
+{
+  color: #FAC33D !important;
+}
+
+
+.text-yellow-hover
+{
+  color: inherit;
+}
+
+.text-yellow-hover:hover
+{
+  color: #FAC33D !important;
+}
+
+
+.border-yellow-500 {
+  border-color: rgb(250, 198, 69) !important;
+}
+
+
+.hover-yellow:hover{
+  /* color: rgb(250, 198, 69) !important; */
+  color: rgb(250, 198, 69) !important;
+  cursor: pointer;
+}
+
+a:hover {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.allow-select,
+.allow-select * {
+  user-select: text !important;
+}
+
+/* #00-85E0 --> #FAC33D */
+
+.bg-theme
+{
+  background-color: #FAC33D !important;
+  background: #FAC33D !important;
+  color: black !important;
+}
+
+
+.btn-theme
+{
+  background-color: #FAC33D  !important;
+  color: black !important;
+}
+
+.text-theme
+{
+  color: #FAC33D  !important;
+}
+
+.bg-theme-transparent
+{
+  background-color: #FAC33D1f !important;
+  background: #FAC33D1f !important;
+}
+
+.btn-topic-play
+{
+  color: #000 !important;
+}
+
+.text-hot-1
+{
+  color: rgb(244 67 54 );/* rgba(250, 181, 5, 1) */ 
+}
+.text-hot-2
+{
+  color: rgb(255 152 0 );  /* rgba(251, 195, 55 , 1) */
+}
+.text-hot-3
+{
+  color: #FAC33D; /* rgba(252, 217, 131, 1) */
+}
+.text-hot-4
+{
+  color:rgba(156, 156, 156, 1)
+}

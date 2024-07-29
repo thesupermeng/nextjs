@@ -1,0 +1,18 @@
+export const FB_Languages = {
+  ENG: 'ENGLISH',
+  CMN: 'CHINESE',
+  ZHO: 'CHINESE_TRADITIONAL',
+  JPN: 'JAPANESE',
+  KOR: 'KOREAN',
+  SPA: 'SPANISH',
+  VIE: 'VIETNAMESE',
+  THA: 'THAI',
+  MSA: 'MALAY',
+  IND: 'INDONESIAN',
+  HIN: 'HINDI',
+  SAU: 'ARABIC',
+  DEU: 'GERMAN',
+  FRA: 'FRENCH',
+  BRA: 'BRAZILIAN',
+  RUS: 'RUSSIAN',
+};

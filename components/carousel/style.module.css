@@ -1,0 +1,12 @@
+.carousel_item_card:hover {
+  border: 2px solid #FFF !important;
+}
+.fade-in {
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+}

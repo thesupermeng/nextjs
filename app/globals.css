@@ -2,10 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,6 +18,12 @@
   }
 }
 
+:root {
+	--rsbs-bg: #171717;
+  --rsbs-backdrop-bg: rgba(0, 0, 0, 0.8);
+  --rsbs-handle-bg: #9C9C9C !important;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -24,10 +32,376 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: 'SF Pro', sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+* {
+  -webkit-tap-highlight-color: #3a3b4190;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  touch-action: pan-y pan-x;
+}
+
+@layer components {
+  .tayagradient {
+    @apply bg-tayaRed;
+    /* @apply tayagradient; */
   }
+  .common-transition {
+    @apply transition-all duration-300 ease-in-out;
+  }
+}
+
+/* ::-webkit-scrollbar {
+  width: 1rem;
+  border: solid 0.25rem transparent;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  width: 1rem;
+  color: #d9d9d966;
+  border-radius: 0.25rem;
+} */
+.webcontent .overflow-y-auto {
+  /* padding-right: 0.25rem; */
+  overflow-x: hidden;
+}
+.webcontent .overflow-x-auto {
+  /* padding-bottom: 0.25rem; */
+  overflow-y: hidden;
+}
+.h5content .overflow-y-auto {
+  overflow-x: hidden;
+}
+.h5content .overflow-x-auto {
+  overflow-y: hidden;
+}
+.webcontent .overflow-y-auto::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+.webcontent .overflow-x-auto::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+.h5content ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.webcontent .overflow-y-auto::-webkit-scrollbar-thumb,
+.webcontent .overflow-x-auto::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  /* width: 2rem; */
+  color: transparent;
+  border-radius: 500rem;
+}
+.webcontent .overflow-y-auto:focus::-webkit-scrollbar-thumb,
+.webcontent .overflow-y-auto:active::-webkit-scrollbar-thumb,
+.webcontent .overflow-y-auto:hover::-webkit-scrollbar-thumb,
+.webcontent .overflow-x-auto:focus::-webkit-scrollbar-thumb,
+.webcontent .overflow-x-auto:active::-webkit-scrollbar-thumb,
+.webcontent .overflow-x-auto:hover::-webkit-scrollbar-thumb {
+  background-color: #d9d9d966 !important;
+  color: #d9d9d966 !important;
+}
+.h5content .overflow-y-auto::-webkit-scrollbar-thumb,
+.h5content .overflow-x-auto::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  color: transparent;
+  border-radius: 500rem;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+  color: transparent;
+}
+
+.swiper-slide {
+  flex: 0 0 1%;
+}
+
+.shake {
+  animation: Shake 0.5s linear infinite;
+}
+
+/*Using keyframes for shaking an image*/
+@keyframes Shake {
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+.react-calendar__tile:disabled {
+  opacity: 50% !important;
+  color: white !important;
+}
+
+.terms-pop::-webkit-scrollbar-thumb {
+  background-color: #d9d9d966 !important;
+  color: #d9d9d966 !important;
+  border-radius: 500rem !important;
+  height: 50px;
+}
+
+.terms-pop::-webkit-scrollbar {
+  -webkit-appearance: none !important;
+  width: 10px !important;
+}
+
+#timeline.vertical-timeline-element--right {
+  .vertical-timeline-element-content {
+    float: right;
+  }
+  .vertical-timeline-element-content-arrow {
+    left: -14px !important;
+    transform: scaleX(1) rotate(0deg) !important;
+  }
+}
+
+#timeline.vertical-timeline-element--left {
+  .vertical-timeline-element-content {
+    float: left;
+  }
+
+  .vertical-timeline-element-content-arrow {
+    right: -14px !important;
+    transform: rotate(-180deg);
+  }
+}
+
+.vertical-timeline-element-content {
+  position: relative;
+  top: -4px;
+}
+
+@media (max-width: 768px) {
+  .vertical-timeline-element-content {
+    top: -13px;
+  }
+}
+.checkbox label {
+  padding: 2px !important;
+}
+/* .text-stroke {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 7px;
+  -webkit-text-stroke-color: #ff0000;
+  stroke-linecap: round;
+  letter-spacing: -0.1px;
+} */
+
+.text-stroke {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 0.5em #df0303, 0 0 0.8em #df0303, 0 0 0.8em #df0303,
+    0 0 0.8em #df0303, 0 0 0.8em #df0303, 0 0 0.8em #df0303, 0 0 0.8em #df0303,
+    0 0 0.8em #df0303, 0 0 0.8em #df0303, 0 0 0.8em #df0303, 0 0 0.8em #df0303,
+    0 0 0.8em #df0303, 0 0 0.8em #df0303, 0 0 0.3em #df0303, 0 0 0.4em #df0303;
+}
+
+@keyframes slideLeftToRight {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+}
+
+.animate-in {
+  animation: slideLeftToRight 0.3s ease-in-out forwards;
+}
+.animate-out {
+  animation: slideRightToLeft 0.3s ease-in-out forwards;
+}
+
+.autofillInput:-webkit-autofill,
+.autofillInput:-webkit-autofill:hover,
+.autofillInput:-webkit-autofill:focus,
+.autofillInput:-webkit-autofill:active{
+  transition: background-color 600000s 0s, color 600000s 0s;
+  /*https://stackoverflow.com/a/69364368*/
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.styling-scrollbar {
+  /* display: block; */
+}
+
+.styling-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.styling-scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black; 
+  border-radius: 10px;
+}
+
+.styling-scrollbar::-webkit-scrollbar-thumb {
+  background: #FAC33D; 
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #fac43db0; 
+}
+
+/* Add this to your global CSS file or a CSS module */
+.otp-container {
+  display: flex;
+  justify-content: center;
+  padding: 0 32px; /* Add padding on left and right */
+  box-sizing: border-box; /* Ensure padding is included in element's width */
+  width: 100%; /* Full width of the screen */
+  max-width: 100%; /* Prevent overflow beyond the screen width */
+}
+
+.otp-inputs {
+  display: flex;
+  gap: 10px; /* Gap between inputs */
+}
+
+.otp-input {
+  width: 50px; /* Adjust the width and height as needed */
+  height: 50px;
+  border-radius: 10px;
+  background-color: #1D2023;
+  color: #FFFFFF; /* Adjust text color if needed */
+  border: 1px solid transparent; /* Default border to transparent */
+  text-align: center; /* Center the text */
+  font-size: 30px; /* Adjust font size if needed */
+  box-sizing: border-box; /* Ensure padding is included in element's width */
+}
+.otp-input:focus {
+  border-color: #FAC33D; /* Border color on focus */
+  outline: none; /* Remove default outline */
+}
+.otp-input.error {
+  border-color: #FF1010; /* Border color for error state */
+  background-color: rgba(255, 16, 16, 0.1); /* Background color for error state */
+}
+
+.zoom-9
+{
+  zoom:0.90 !important;
+}
+
+
+.allow-select,
+.allow-select * {
+  user-select: text !important;
+}
+
+
+[data-rsbs-overlay],
+[data-rsbs-backdrop],
+[data-rsbs-root]:after {
+  z-index: 51 !important;
+}
+[data-rsbs-backdrop] {
+  z-index: 50 !important; 
+
+}
+
+.margin-banner
+{
+  margin: 1.5rem 0rem;
+}
+
+.margin-banner2
+{
+  margin: 1rem 0rem  0rem  0rem !important;
+}
+
+/* mobile */
+@media (max-width: 768px) {
+  .margin-banner
+  {
+    margin: 0.88rem 0rem;
+  }
+}
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+
+  background-color: #FAC33D !important;
+
+
+}
+
+.h-\[35px\] {
+  height: 35px !important;
+}
+
+.hover-download:hover
+{
+  background-color: '#18191e' !important;
+}
+.bg-black
+{
+  background: #000;
+  background-color: #000;
+}
+
+.transparent
+{
+  opacity: 0.35 !important;
+}
+
+.video-player
+{
+ flex:1;
+}
+
+/* mobile */
+@media (max-width: 1200px) {
+  .video-player
+{
+ width: 100%;
+ flex: none ;
+}
+}
+
+#ads-players::-webkit-media-controls-panel {
+  display: none !important;
+  opacity: 1 !important;
+
+}
+
+  #ads-players::-webkit-media-controls-start-playback-button {
+    display: none;
 }
